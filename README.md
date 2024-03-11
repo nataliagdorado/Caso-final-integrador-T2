@@ -1,5 +1,5 @@
-# Caso-final-integrador-3
-https://github.com/nataliagdorado/Caso-final-integrador-T3.git
+# Caso-final-integrador-2
+https://github.com/nataliagdorado/Caso-final-integrador-T2.git
 
 Caso Final Integrador: Desarrollo de un Simulador de Ecosistema Inteligente
 
