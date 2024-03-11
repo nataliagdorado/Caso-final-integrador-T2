@@ -62,11 +62,9 @@ public class animal {
         this.especie = especie;
     }
 
-
     public String getRaza() {
         return raza;
     }
-
 
     public void setRaza(String raza) {
         this.raza = raza;
