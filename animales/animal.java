@@ -1,12 +1,15 @@
 package animales;
 
+// Esto no puede ser una clase abstracta? public abstract class animal 
 public class animal {
+    int id;
     String nombre;
     String especie;
     String raza;
     Boolean buencomportamiento;
 
-    public animal (String nombre, String especie, String raza, Boolean buencomportamiento) {
+    public animal (int id, String nombre, String especie, String raza, Boolean buencomportamiento) {
+        this.id=id;
         this.nombre = nombre;
         this.especie = especie;
         this.raza = raza;
@@ -43,6 +46,13 @@ public class animal {
         return super.hashCode();
     }
     
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     public String getNombre() {
         return nombre;
     }

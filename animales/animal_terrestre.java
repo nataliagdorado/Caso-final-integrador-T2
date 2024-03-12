@@ -47,4 +47,8 @@ public class animal_terrestre {
     public void setTipo_terrestre(String tipo_terrestre) {
         this.tipo_terrestre = tipo_terrestre;
     }
+
+    public void empezarCorrer(){
+        System.out.println("Empiezo a correr porque soy "+nombre);
+    }
 }

@@ -47,4 +47,7 @@ public class animal_aviario {
         this.tipo_aviario = tipo_aviario;
     }
 
+    public void empezarVolar(){
+        System.out.println("Empiezo a volar porque soy "+nombre);
+    }
 }

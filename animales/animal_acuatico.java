@@ -25,4 +25,13 @@ public class animal_acuatico {
     public void setTipo_agua(String tipo_agua) {
         this.tipo_agua = tipo_agua;
     }
+
+    // Métodos propios
+    public void empezarNadar(){
+        System.out.println("Empiezo a nadar porque soy "+nombre);
+    }
+    public void moverAleta(){
+        System.out.println("Muevo mis aletas");
+    }
+    }
 }
