@@ -47,6 +47,12 @@ public class animal_aviario {
         this.tipo_aviario = tipo_aviario;
     }
 
+    // Metodo heredado
+    @Override
+    public void comer() {
+        System.out.println("El animal terrestre está comiendo");
+    }
+    
     public void empezarVolar(){
         System.out.println("Empiezo a volar porque soy "+nombre);
     }

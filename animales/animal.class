@@ -2,6 +2,7 @@ package animales;
 
 // Esto no puede ser una clase abstracta? public abstract class animal 
 public class animal {
+    // Atributos comunes de todos los animales
     int id;
     String nombre;
     String especie;
@@ -97,5 +98,12 @@ public class animal {
     // metodo para registrar el comportamiento
     public void registrarComportamiento(boolean comportamiento) {
         System.out.println(buencomportamiento(comportamiento));
+    }
+
+    // metodos para otras cosas. Son abstract para que lo puedan tener el resto no?
+    public class Animal {
+        public void comer() {
+            System.out.println("El animal está comiendo");
+        }
     }
 }

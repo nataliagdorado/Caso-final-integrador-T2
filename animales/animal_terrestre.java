@@ -51,4 +51,9 @@ public class animal_terrestre {
     public void empezarCorrer(){
         System.out.println("Empiezo a correr porque soy "+nombre);
     }
+    // Metodo heredado
+    @Override
+    public void comer() {
+        System.out.println("El animal terrestre está comiendo");
+    }
 }
