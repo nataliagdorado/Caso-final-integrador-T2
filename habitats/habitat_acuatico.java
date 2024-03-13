@@ -8,7 +8,6 @@ public class habitat_acuatico {
         this.puede_nadar = puede_nadar;
     }
 
-
     @Override
     public String toString() {
         return "acuaticos []";

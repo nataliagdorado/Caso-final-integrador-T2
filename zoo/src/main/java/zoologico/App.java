@@ -1,14 +1,8 @@
 import java.util.Scanner;
 package zoologico;
 
-
 public class App {
-    public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
-        
-    }
-    public class App {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             System.out.println("BIENVENIDOS AL ZOOLÓGICO");
             
             Scanner scanner = new Scanner(System.in);
@@ -34,6 +28,11 @@ public class App {
             }
             
             scanner.close();
+        }
+
+        @Override
+        public String toString() {
+            return "App []";
         }
     }
 }
