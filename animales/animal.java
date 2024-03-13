@@ -1,7 +1,7 @@
 package animales;
 
-// Esto no puede ser una clase abstracta? public abstract class animal 
-public class Animal {
+// Animal clase abstracta?
+public abstract class Animal {
     // Atributos comunes de todos los animales
     int id;
     String nombre;

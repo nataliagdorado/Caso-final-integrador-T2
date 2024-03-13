@@ -1,5 +1,4 @@
 import java.util.Scanner;
-package zoologico;
 
 public class App {
     public static void main(String[] args) {
@@ -11,13 +10,13 @@ public class App {
             String opcion = scanner.nextLine();
             
             if (opcion.equalsIgnoreCase("T")) {
-                System.out.println("Mantenimiento");
+                System.out.println("Opciones de mantenimiento");
             } else if (opcion.equalsIgnoreCase("V")) {
                 System.out.print("¿Quieres un tour personalizado? (S/N): ");
                 String respuesta = scanner.nextLine();
                 
                 if (respuesta.equalsIgnoreCase("S")) {
-                    System.out.println("Tour personalizado");
+                    System.out.println("Tour personalizado, meteria mas opciones");
                 } else if (respuesta.equalsIgnoreCase("N")) {
                     System.out.println("Lista de animales del zoológico");
                 } else {
@@ -35,4 +34,4 @@ public class App {
             return "App []";
         }
     }
-}
+

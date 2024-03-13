@@ -1,7 +1,6 @@
 package animales;
 
-public class animal_terrestre {
-
+public class animal_terrestre extends Animal {
     boolean patas;
     boolean cola;
     boolean pelaje;
@@ -55,5 +54,14 @@ public class animal_terrestre {
     @Override
     public void comer() {
         System.out.println("El animal terrestre está comiendo");
+    }
+    @Override
+    public String toString() {
+        return "animal_terrestre{" +
+                "patas=" + patas +
+                ", cola=" + cola +
+                ", pelaje=" + pelaje +
+                ", tipo_terrestre='" + tipo_terrestre + '\'' +
+                '}';
     }
 }
